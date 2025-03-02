@@ -1,10 +1,10 @@
 # Game Boy Color Emulator
 
-Hello! I'm Dylan Gearhart, and I'm excited to introduce my latest project: a **Game Boy Color Emulator**. This is an ongoing project that I'm undertaking as part of my exploration into low level programming. The goal of this project is to emulate the Game Boy Color's hardware and provide a platform to run Game Boy Color ROMs.
+Hello! I'm Dylan Gearhart, and I would like to introduce my latest project: a **Game Boy Color Emulator**. The goal of this project is to emulate the Game Boy Color's hardware and provide a platform to run Game Boy Color ROMs. I expect this will be a fun and challenging way for me to dive deep into low-level programming.
 
 ## About the Project
 
-This project aims to simulate the core functionalities of the Game Boy Color, including the CPU, memory, graphics, and input systems. It's a fun and challenging way for me to dive deep into low-level programming.
+This project aims to simulate the core functionalities of the Game Boy Color, including the CPU, memory, graphics, and instruction set. 
 
 ### Project Goals:
 - Replicating the Game Boy Color's CPU and memory architecture
