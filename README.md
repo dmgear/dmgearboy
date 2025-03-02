@@ -1,4 +1,4 @@
-# Dylan Gearhart's Game Boy Color Emulator
+# Game Boy Color Emulator
 
 Hello! I'm Dylan Gearhart, and I'm excited to introduce my latest project: a **Game Boy Color Emulator**. This is an ongoing project that I'm undertaking as part of my exploration into emulator development and systems programming. The goal of this project is to emulate the Game Boy Color's hardware and provide a platform to run Game Boy Color ROMs.
 
