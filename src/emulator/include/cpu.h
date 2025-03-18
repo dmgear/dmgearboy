@@ -1,7 +1,8 @@
 #pragma once
 #include <common.h>
 
-typedef struct {
+typedef struct 
+{
    /*
     This structure represents the registers of the Game Boy CPU.
 
@@ -21,12 +22,27 @@ typedef struct {
 
     u8 A; 
     u8 F; 
-    u8 B;
-    u8 C;
-    u8 D;
-    u8 E;
-    u8 H;
-    u8 L;
-    u16 SP;
-    u16 PC;
+    u8 B; 
+    u8 C; 
+    u8 D; 
+    u8 E; 
+    u8 H; 
+    u8 L; 
+    u16 SP; 
+    u16 PC; 
 } gb_register;
+
+typedef struct 
+{
+    /*
+    This structure tracks the status of the cpu 
+    */
+    gb_register gb_regs;
+    
+    u16 fetch;
+    u16 mem_addr;
+    u8 opcode;
+    bool halt; 
+    bool stepping;
+
+} cpu_state;
